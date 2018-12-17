@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FirstActivityJpn"
+    android:background="@mipmap/first_jp">
+
+    <Button
+        android:id="@+id/kpop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@android:color/transparent"
+        android:onClick="tokpop"
+        android:text="kpop"
+        android:textColor="@android:color/transparent" />
+
+    <Button
+        android:id="@+id/kdrama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@android:color/transparent"
+        android:onClick="todrama"
+        android:text="kdrama"
+        android:textColor="@android:color/transparent" />
+
+    <Button
+        android:id="@+id/kenter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@android:color/transparent"
+        android:onClick="toenter"
+        android:text="kenter"
+        android:textColor="@android:color/transparent" />
+
+</LinearLayout>

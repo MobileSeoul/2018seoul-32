@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.multi.student.HanruyLove">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".LanguageMainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AboutActivity" />
+        <activity android:name=".KstarengActivity" />
+        <activity android:name=".KstarjapanActivity" />
+        <activity android:name=".KstarchineseActivity" />
+        <activity android:name=".KstarMainActivity" />
+        <activity android:name=".KdramaengActivity" />
+        <activity android:name=".KdramajapanActivity" />
+        <activity android:name=".KdramachineseActivity" />
+        <activity android:name=".KdramaMainActivity" />
+        <activity android:name=".KenterjapanActivity" />
+        <activity android:name=".KenterengActivity" />
+        <activity android:name=".KenterchineseActivity" />
+        <activity android:name=".KenterMainActivity" />
+        <activity android:name=".FirstActivity" />
+        <activity android:name=".FirstActivityCn" />
+        <activity android:name=".FirstActivityEng" />
+        <activity android:name=".FirstActivityJpn" />
+        <activity android:name=".KtvshowCategory" />
+        <activity android:name=".KtvshowCategoryEng" />
+        <activity android:name=".KtvshowCategoryJp" />
+        <activity android:name=".KtvshowCategoryCn" />
+        <activity android:name=".KdramaCategory" />
+        <activity android:name=".KdramaCategoryEng" />
+        <activity android:name=".KdramaCategoryCn" />
+        <activity android:name=".KdramaCategoryJp" />
+        <activity android:name=".KpopCategoryJp" />
+        <activity android:name=".KpopCategoryEng" />
+        <activity android:name=".KpopCategoryCn" />
+        <activity android:name=".KpopCategory"></activity>
+
+    </application>
+
+</manifest>
